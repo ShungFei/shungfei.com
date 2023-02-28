@@ -10,13 +10,13 @@ import Hero from "../components/Hero.astro";
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				tagline="Thanks for stopping by! Feel free to get in touch if there's something on your mind. I promise to you that I'll make it worth the while :)"
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Shung Fei at work with a colleague"
+						src="/assets/cliffeats.jpg"
+						alt="A drawing of a girl eating at the edge of a cliff"
 				/>
 			</Hero>
 
@@ -24,43 +24,45 @@ import Hero from "../components/Hero.astro";
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a
-							href="https://astro.build/">Astro</a
-						> makes people happy. Sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis
-						nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam
-						quis enim lobortis scelerisque fermentum dui faucibus in
-						ornare.
+						This is probably where I'm supposed to recount the
+						relevant story beats of my life that led up to where I
+						am today. I'm a pretty boring person though － all I
+						want is to to give back to this world and its people
+						that I love so much. I hope that shines through in my
+						work.
 					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et
-						egestas. Eget gravida cum sociis natoque penatibus. Cras
-						fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed
-						felis eget velit. Id diam vel quam elementum pulvinar
-						etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut.
-						Sed enim ut sem viverra aliquet eget sit amet. Lacus
-						luctus accumsan tortor posuere ac ut consequat semper
-						viverra. Viverra accumsan in nisl nisi scelerisque eu
-						ultrices. In massa tempor nec feugiat nisl pretium
-						fusce.
-					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<p><strong>Southern Cross Health Society</strong></p>
+					<p>Data Analyst • Dec. 2021 – present</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p><strong>The University of Auckland</strong></p>
+					<p>
+						Bachelor of Engineering (Honours) in Software
+						Engineering
+					</p>
+					<p>Mar. 2021 – Nov. 2024</p>
+					<p>GPA: 8.75/9.0 • Dean’s Honours List 2021, 2022</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					{
+						SkillsData.map((section) => (
+							<p>
+								<strong>{section.title}:</strong>{" "}
+								{section.items.join(" • ")}
+							</p>
+						))
+					}
 				</div>
 			</section>
 		</main>
@@ -93,6 +95,15 @@ import Hero from "../components/Hero.astro";
 		grid-column-start: 1;
 		font-size: var(--text-xl);
 		color: var(--gray-0);
+	}
+
+	/* Copied from h5 style in global.css */
+	.bold {
+		font-size: var(--text-xl);
+		line-height: var(--header-line-height);
+		font-family: var(--font-brand);
+		font-weight: var(--header-weight);
+		color: var(--gray-100);
 	}
 
 	.content {

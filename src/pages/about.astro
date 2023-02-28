@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
+import Skills from "../components/Skills.astro";
 ---
 
 <BaseLayout title="About | Shung Fei" description="About Shung Fei Lorem Ipsum">
@@ -13,12 +14,12 @@ import Hero from "../components/Hero.astro";
 				tagline="Thanks for stopping by! Feel free to get in touch if there's something on your mind. I promise to you that I'll make it worth the while :)"
 			>
 				<figure>
-				<img
-					width="1553"
-					height="873"
+					<img
+						width="1553"
+						height="873"
 						src="/assets/cliffeats.jpg"
 						alt="A drawing of a girl eating at the edge of a cliff"
-				/>
+					/>
 					<figcaption class="caption">
 						Always be sure to take a break every so often!
 					</figcaption>
@@ -57,21 +58,11 @@ import Hero from "../components/Hero.astro";
 					<p>GPA: 8.75/9.0 • Dean’s Honours List 2021, 2022</p>
 				</div>
 			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					{
-						SkillsData.map((section) => (
-							<p>
-								<strong>{section.title}:</strong>{" "}
-								{section.items.join(" • ")}
-							</p>
-						))
-					}
-				</div>
-			</section>
 		</main>
-
+		<div class="wrapper">
+			<h2 class="section-title">Skills</h2>
+			<Skills />
+		</div>
 		<ContactCTA />
 	</div>
 </BaseLayout>
@@ -97,6 +88,7 @@ import Hero from "../components/Hero.astro";
 	}
 
 	.section-title {
+		margin-bottom: 0.5em;
 		grid-column-start: 1;
 		font-size: var(--text-xl);
 		color: var(--gray-0);

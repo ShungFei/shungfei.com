@@ -206,6 +206,12 @@ h5 {
 	font-size: var(--text-xl);
 }
 
+.caption {
+	font-size: var(--text-md);
+	font-weight: var(--header-weight);
+	text-align: center;
+}
+
 /* Utilities */
 
 .sr-only {

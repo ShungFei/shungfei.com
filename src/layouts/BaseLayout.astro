@@ -37,7 +37,6 @@ const { title, description } = Astro.props;
 			:root {
 				--_placeholder-bg: linear-gradient(transparent, transparent);
 				--bg-image-main: url("/assets/backgrounds/bg-main-light-800w.jpg");
-				--bg-image-main-curves: url("/assets/backgrounds/bg-main-light.svg");
 				--bg-image-subtle-1: var(--_placeholder-bg);
 				--bg-image-subtle-2: var(--_placeholder-bg);
 				--bg-image-footer: var(--_placeholder-bg);
@@ -53,7 +52,6 @@ const { title, description } = Astro.props;
 
 			:root.theme-dark {
 				--bg-image-main: url("/assets/backgrounds/bg-main-dark-800w.jpg");
-				--bg-image-main-curves: url("/assets/backgrounds/bg-main-dark.svg");
 				--bg-svg-blend-mode: darken;
 				--bg-blend-mode: lighten;
 			}
@@ -100,15 +98,19 @@ const { title, description } = Astro.props;
 						center/220px repeat,
 					/*footer*/ var(--bg-image-footer) bottom
 						center/var(--bg-gradient-size) no-repeat,
-					/*header1*/ var(--bg-image-main-curves) top
-						center/var(--bg-gradient-size) no-repeat,
+					/*header1*/
+						linear-gradient(
+							to bottom,
+							transparent 0%,
+							var(--gray-999) 30rem
+						)
+						top center/var(--bg-gradient-size) no-repeat,
 					/*header2*/ var(--bg-image-main) top
 						center/var(--bg-gradient-size) no-repeat,
 					/*base*/ var(--gray-999);
 				background-blend-mode: /*noise*/ overlay,
-					/*footer*/ var(--bg-blend-mode),
-					/*header1*/ var(--bg-svg-blend-mode), /*header2*/ normal,
-					/*base*/ normal;
+					/*footer*/ var(--bg-blend-mode), /*header1*/ normal,
+					/*header2*/ normal, /*base*/ normal;
 			}
 			@media (forced-colors: active) {
 				/* Deactivate custom backgrounds for high contrast users. */

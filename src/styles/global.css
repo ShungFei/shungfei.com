@@ -113,7 +113,12 @@
 
 	--link-color: var(--accent-dark);
 
-	--gradient-stop-1: #4c11c6;
+	/* --gradient-stop-1: hsl(260, 84%, 72%);
+	--gradient-stop-2: hsl(216, 81%, 56%);
+	--gradient-stop-3: hsl(215, 89%, 40%); */
+	--gradient-stop-1: hsl(260, 84%, 82%);
+	--gradient-stop-2: hsl(216, 81%, 66%);
+	--gradient-stop-3: hsl(215, 89%, 50%);
 	--gradient-subtle: linear-gradient(
 		150deg,
 		var(--gray-900) 19%,

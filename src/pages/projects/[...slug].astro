@@ -55,7 +55,19 @@ const { Content } = await entry.render();
 									alt={entry.data.img_alt || ""}
 								/>
 								<figcaption class="caption">
-									{entry.data.img_caption}
+									{entry.data.caption}
+								</figcaption>
+							</figure>
+						)
+					}
+					{
+						entry.data.videoSource && (
+							<figure>
+								<video autoplay loop>
+									<source src={entry.data.videoSource} />
+								</video>
+								<figcaption class="caption">
+									{entry.data.caption}
 								</figcaption>
 							</figure>
 						)
@@ -116,7 +128,8 @@ const { Content } = await entry.render();
 		margin: 1.5rem 0;
 	}
 
-	.content :global(img) {
+	.content :global(img),
+	:global(video) {
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-sm);
 		background: var(--gradient-subtle);

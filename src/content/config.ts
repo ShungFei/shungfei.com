@@ -8,9 +8,10 @@ export const collections = {
 			publishDate: z.coerce.date(),
 			featured: z.boolean().optional(),
 			tags: z.array(z.string()),
-			img: z.string(),
+			img: z.string().optional(),
 			img_alt: z.string().optional(),
-			img_caption: z.string().optional(),
+			videoSource: z.string().optional(),
+			caption: z.string().optional(),
 		}),
 	}),
 };

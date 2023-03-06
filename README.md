@@ -1,15 +1,24 @@
-# Astro Starter Kit: Portfolio
+# shungfei.com
 
-```
-npm create astro@latest -- --template portfolio
-```
+I've built a static site using [Astro](https://astro.build) to house my:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
+-   Professional profile
+-   Projects
+-   and maybe a blog in the future?
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+I always thought it was kind of egotistical to have your own site. And maybe it is!
 
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
+But I can’t help but feel just a little happy to look back and see how far I’ve come.
+
+Let’s put something cooler here next time!
+
+## Template
+
+This website was created using the [Astro Starter Kit: Portfolio](https://github.com/withastro/astro/tree/main/examples/portfolio) theme licensed under [t](./COPYRIGHT.txt)
+
+This template is pretty new as of writing, but depending on how many others use it in the future this site might end up looking very cliché!
+
+But the theme is still quite pretty, so I hope you'll enjoy your stay nonetheless.
 
 ## 🧞 Commands
 
@@ -24,6 +33,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Deployment
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Currently hosted on [Cloudflare Pages](https://developers.cloudflare.com/pages/)
+
+## Roadmap
+
+-   Create a blog!
+    -   It would be nice to be able to search the blog like in https://astro.build/themes/details/astro-paper/
+-   A gallery for my artwork, perhaps?
+-   Dig through my files and find some more interesting stuff to show

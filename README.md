@@ -14,7 +14,7 @@ Let’s put something cooler here next time!
 
 ## Template
 
-This website was created using the [Astro Starter Kit: Portfolio](https://github.com/withastro/astro/tree/main/examples/portfolio) theme licensed under [t](./COPYRIGHT.txt)
+This website was created using the [Astro Starter Kit: Portfolio](https://github.com/withastro/astro/tree/main/examples/portfolio) theme [under the MIT License](./COPYRIGHT.txt)
 
 This template is pretty new as of writing, but depending on how many others use it in the future this site might end up looking very cliché!
 

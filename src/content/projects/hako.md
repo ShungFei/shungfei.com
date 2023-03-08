@@ -66,7 +66,7 @@ Current time of writing is the 6th of March 2023, and I'm really excited about [
 -   Hako's 3D model was created with [Blender](https://www.blender.org/)
 -   GDScript game code powered by the [Godot Game Engine](https://godotengine.org/)!
 
-## Software Architecture
+## Technical Design
 
 ---
 
@@ -74,7 +74,7 @@ Machine Learning is moving at a incredible pace nowadays, so how do you future-p
 
 I'm learning everything as I go, so please do help me if I'm wandering right into a dead end 😅
 
-### Modules/Extensions
+### Modules / Extensions
 
 Ideally, the architecture should be designed in a way that allows the integration of extensions that can hack the assistant and make them do whatever you want, like traditional home assistant things such as turning on your lights or searching for the weather.
 

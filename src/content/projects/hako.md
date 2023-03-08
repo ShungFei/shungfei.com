@@ -27,7 +27,7 @@ Check out the source, downloads, and more information on [GitHub](https://github
 
 ⚠️ Hako is in a early stage of development, so this is more a wishlist than anything! ⚠️
 
-I'm currently implementing some of the more basic groundwork, while I think about how to best implement state of the art Machine Learning methods to drive these core features. If any of these items
+I'm currently implementing some of the more basic groundwork, while I think about how to best implement state of the art Machine Learning methods to drive these core features. Please reach out if you're interested in some of these problems!
 
 Current time of writing is the 6th of March 2023, and I'm really excited about [certain recent developments in the text generation space](https://github.com/facebookresearch/llama). Could a model as good as ChatGPT soon be able to run on any home computer? I sure hope so!
 

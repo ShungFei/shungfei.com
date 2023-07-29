@@ -62,11 +62,7 @@ const projects = (await getCollection("projects"))
 
 		<main class="wrapper about with-background stack gap-20 lg:gap-48">
 			<header class="section-header stack gap-2 lg:gap-4">
-				<h3>About</h3>
-				<p>
-					Thanks for stopping by! Feel free to get in touch if you
-					have anything. I promise you I'll make it worth the while :)
-				</p>
+				<h3>About Me</h3>
 			</header>
 
 			<About />
@@ -75,10 +71,10 @@ const projects = (await getCollection("projects"))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Projects</h3>
+					<h3>Recent Projects</h3>
 					<p>
-						Take a peek at some of my favourite projects from the
-						past few years.
+						Take a peek at my favourite projects from the past few
+						years.
 					</p>
 				</header>
 
@@ -151,7 +147,7 @@ const projects = (await getCollection("projects"))
 	.about {
 		display: flex;
 		flex-direction: column;
-		gap: 3.5rem;
+		gap: 1.5rem;
 	}
 	.about .section-header {
 		justify-self: left;
@@ -166,6 +162,7 @@ const projects = (await getCollection("projects"))
 		.about {
 			display: grid;
 			grid-template-columns: 1fr 60% 1fr;
+			gap: 2.5rem;
 		}
 
 		.about > :global(:first-child) {

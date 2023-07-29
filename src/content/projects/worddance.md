@@ -7,8 +7,8 @@ caption: Truly one of the games of all time
 description: |
     A fast‑paced web game where you write sentences with a word missing so that an AI fills it in with a target word.
 tags:
-    - Web Development
-    - Game Development
+    - Web Dev
+    - Game Dev
 ---
 
 ## Now, show me how you [MASK] with your words!

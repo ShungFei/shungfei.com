@@ -41,8 +41,3 @@ climbing stairs etc.
 ![Wotsar presentation slide #9](/assets/projects/wotsar/pg-9.jpg)
 ![Wotsar presentation slide #10](/assets/projects/wotsar/pg-10.jpg)
 ![Wotsar presentation slide #11](/assets/projects/wotsar/pg-11.jpg)
-
-### Rejected solutions
-
-![Motorised bed on wheels concept design](/assets/projects/wotsar/rejected-1.jpg)
-![Robot guide dog concept design](/assets/projects/wotsar/rejected-2.jpg)

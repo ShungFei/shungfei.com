@@ -1,13 +1,13 @@
 ---
 title: shungfei.com
 publishDate: 2023-03-01 00:00:00
-featured: true
+featured: false
 videoSource: /assets/projects/shungfeicom/recursion.webm
 caption: Into the Hakoverse (2023)
 description: |
     You are here! 📍
 tags:
-    - Web Development
+    - Web Dev
     - Design
 ---
 

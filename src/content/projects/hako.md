@@ -8,9 +8,8 @@ caption: Hako seems to be experiencing some technical difficulties...
 description: |
     Hako is a lovable open source virtual desktop assistant!
 tags:
-    - Game Development
+    - Game Dev
     - Machine Learning
-    - Computer Graphics
 ---
 
 ## A companion just for you. For free. Forever.
@@ -19,7 +18,7 @@ tags:
 
 Hako is a lovable open source virtual desktop assistant for all your computer tasks.
 
-Check out the source, downloads, and more information on [GitHub](https://github.com/ShungFei/hako)
+Update (July 2023): This page is outdated. Find the latest at https://openhako.com
 
 ## Features
 
@@ -28,8 +27,6 @@ Check out the source, downloads, and more information on [GitHub](https://github
 ⚠️ Hako is in a early stage of development, so this is more a wishlist than anything! ⚠️
 
 I'm currently implementing some of the more basic groundwork, while I think about how to best implement state of the art Machine Learning methods to drive these core features. Please reach out if you're interested in some of these problems!
-
-Current time of writing is the 6th of March 2023, and I'm really excited about [certain recent developments in the text generation space](https://github.com/facebookresearch/llama). Could a model as good as ChatGPT soon be able to run on any home computer? I sure hope so!
 
 ### Animation
 
@@ -70,9 +67,7 @@ Current time of writing is the 6th of March 2023, and I'm really excited about [
 
 ---
 
-Machine Learning is moving at a incredible pace nowadays, so how do you future-proof an architecture for Hako? Honestly — I have no idea!
-
-I'm learning everything as I go, so please do help me if I'm wandering right into a dead end 😅
+Machine Learning is moving at a incredible pace nowadays, so how do you future-proof an architecture for Hako?
 
 ### Modules / Extensions
 

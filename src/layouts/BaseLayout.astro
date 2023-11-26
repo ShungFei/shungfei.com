@@ -112,6 +112,27 @@ const { title, description } = Astro.props;
 					/*footer*/ var(--bg-blend-mode), /*header1*/ normal,
 					/*header2*/ normal, /*base*/ normal;
 			}
+
+			/* Dark theme has same background layouts as in light theme above,
+			except the main background has a position of "left" rather than "center".
+			This is so the broken torii in the art is centered on mobile browsers */
+			:root.theme-dark .backgrounds {
+				background:
+					/*noise*/ url("/assets/backgrounds/noise.png") top
+						center/220px repeat,
+					/*footer*/ var(--bg-image-footer) bottom
+						center/var(--bg-gradient-size) no-repeat,
+					/*header1*/
+						linear-gradient(
+							to bottom,
+							transparent 0%,
+							var(--gray-999) 30rem
+						)
+						top center/var(--bg-gradient-size) no-repeat,
+					/*header2*/ var(--bg-image-main) top
+						left/var(--bg-gradient-size) no-repeat,
+					/*base*/ var(--gray-999);
+			}
 			@media (forced-colors: active) {
 				/* Deactivate custom backgrounds for high contrast users. */
 				.backgrounds {

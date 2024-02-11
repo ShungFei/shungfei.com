@@ -54,7 +54,8 @@ import Icon from "./Icon.astro";
 	@media (prefers-reduced-motion: no-preference) {
 		.icon,
 		.icon.light::before {
-			transition: transform var(--theme-transition),
+			transition:
+				transform var(--theme-transition),
 				color var(--theme-transition);
 		}
 	}
@@ -76,7 +77,7 @@ import Icon from "./Icon.astro";
 			/** Set the theme to dark/light mode. */
 			const setTheme = (dark: boolean) => {
 				document.documentElement.classList[dark ? "add" : "remove"](
-					"theme-dark"
+					"theme-dark",
 				);
 				button.setAttribute("aria-pressed", String(dark));
 			};

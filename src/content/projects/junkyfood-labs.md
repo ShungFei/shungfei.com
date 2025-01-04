@@ -1,7 +1,7 @@
 ---
 title: JunkyFood Labs
 publishDate: 2021-04-30 00:00:00
-featured: true
+featured: false
 img: /assets/projects/junkyfood-labs/render.jpg
 img_alt: A poster of Fastfool from JunkyFood Labs during their research
 caption: Fastfool is doing their best to keep a pose for the hours it took to render this image!

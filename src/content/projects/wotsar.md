@@ -1,7 +1,7 @@
 ---
 title: Wotsar
 publishDate: 2021-03-23 00:00:00
-featured: true
+featured: false
 videoSource: /assets/projects/wotsar/demo.mp4
 caption: A helpful pair of legs demo Wotsar by navigating to a waypoint
 description: |
